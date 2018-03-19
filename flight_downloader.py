@@ -16,7 +16,7 @@ prefix = "https://transtats.bts.gov/PREZIP/On_Time_On_Time_Performance_"
 prefix2 = "On_Time_On_Time_Performance_"
 postfix = ".zip"
 
-for year in range(2016, 2017):
+for year in range(2017, 2018):
     for month in range(1, 13):
         if year == 2003 and month < 6:
             continue;
